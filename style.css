@@ -1,29 +1,35 @@
 body{
     margin: 0px;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
+.todo{
 
+}
 header{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 45vh;
+    height: 23vh;
     background-color: rgb(253, 177, 90);
 }
 article{
     width: 100%;
-    height: 90vh;
+    height: 65vh;
     background-color: white;
 }
 
 #footer{
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     background-color: rgb(190, 188, 188);
 }
 .BH{
-    width: 15vw;
-    height: 30vh;
+    width: 15vh;
+    height: 15vh;
     background-color: rgb(235, 152, 59);
 }
 .LH{
@@ -31,55 +37,38 @@ article{
     flex-direction: column;
     align-content: space-between;
     width: 50%;
-    height: 20vh;
+    height: 5vh;
 }
-.Linea1H{
-    width: 50%;
-    height: 2vh;
-    background-color: peru;
+h1{
+    margin: 0%;
+    font-size: 70%;
 }
-.Linea2H{
-    width: 100%;
-    height: 1vh;
-    background-color: white;
-}
-.Linea3H{
-    width: 100%;
-    height: 1vh;
-    background-color: white;
-}
-.Linea4H{
-    width: 100%;
-    height: 1vh;
-    background-color: white;
-}
-.Linea5H{
-    width: 50%;
-    height: 1vh;
-    background-color: white;
+h2{
+    margin: 0%;
+    font-size: 60%;
 }
 .BAa1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 15vw;
+    width: 15vh;
     height: 15vh;
     background-color: rgb(87, 131, 226);
 }
 .barraBAa1{
-    width: 15vw;
+    width: 15vh;
     height: 5vh;
     background-color: rgb(59, 110, 219);
 }
 .BloqueBAa1{
     display: flex;
     
-    width: 7vw;
-    height: 14vh;
+    width: 7vh;
+    height: 7vh;
     background-color: rgb(59, 110, 219);
 }
 .BAa2{
-    width: 15vw;
+    width: 15vh;
     height: 15vh;
     background-color: rgb(87, 131, 226);
 }
