@@ -14,14 +14,23 @@ header{
     justify-content: space-around;
     width: 100%;
     height: 23vh;
-    background-color: rgb(253, 177, 90);
+    background-color: rgb(255, 185, 104);
 }
-article{
+.A1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    height: 65vh;
+    height: 32.5vh;
     background-color: white;
 }
-
+.A2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 32.5vh;
+    background-color: white;
+}
 #footer{
     width: 100%;
     height: 12vh;
@@ -30,14 +39,13 @@ article{
 .BH{
     width: 15vh;
     height: 15vh;
-    background-color: rgb(235, 152, 59);
+    background-color: rgb(247, 170, 82);
 }
 .LH{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
     width: 50%;
-    height: 5vh;
+    height: 15vh;
 }
 h1{
     margin: 0%;
@@ -47,28 +55,141 @@ h2{
     margin: 0%;
     font-size: 60%;
 }
+/*Bloque Article Azul n°1*/
 .BAa1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 15vh;
-    height: 15vh;
-    background-color: rgb(87, 131, 226);
+    width: 18vh;
+    height: 18vh;
 }
 .barraBAa1{
-    width: 15vh;
-    height: 5vh;
-    background-color: rgb(59, 110, 219);
+    width: 18vh;
+    height: 3vh;
+    background-color: rgb(159, 197, 255);
+}
+.DivBloqueBAa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 15vh;
+    background-color: rgb(186, 228, 248);
 }
 .BloqueBAa1{
-    display: flex;
-    
-    width: 7vh;
-    height: 7vh;
-    background-color: rgb(59, 110, 219);
+    width: 8.5vh;
+    height: 8.5vh;
+    background-color: rgb(159, 197, 255);
 }
-.BAa2{
-    width: 15vh;
+/*Bloque Article Rojo n°1*/
+.BAr1{
+    width: 18vh;
+    height: 18vh;
+}
+.barraBAr1{
+    width: 18vh;
+    height: 3vh;
+    background-color: rgb(228, 95, 95);
+}
+.DivBloqueBAr1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
     height: 15vh;
-    background-color: rgb(87, 131, 226);
+    background-color: rgb(253, 151, 151);
+}
+.BloqueBAr1{
+    width: 8.5vh;
+    height: 8.5vh;
+    background-color: rgb(228, 95, 95);
+}
+/*Bloque Articl Naranja n°1*/
+.BAn1{
+    width: 18vh;
+    height: 18vh;
+}
+.barraBAn1{
+    width: 18vh;
+    height: 3vh;
+    background-color: rgb(247, 170, 82);
+}
+.DivBloqueBAn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 15vh;
+    background-color: rgb(255, 185, 104);
+}
+.BloqueBAn1{
+    width: 8.5vh;
+    height: 8.5vh;
+    background-color: rgb(247, 170, 82);
+}
+/*Bloque Article Azul n°2*/
+.BAa2{
+    width: 18vh;
+    height: 18vh;
+}
+.barraBAa2{
+    width: 18vh;
+    height: 3vh;
+    background-color: rgb(159, 197, 255);
+}
+.DivBloqueBAa2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 15vh;
+    background-color: rgb(186, 228, 248);
+}
+.BloqueBAa2{
+    width: 8.5vh;
+    height: 8.5vh;
+    background-color: rgb(159, 197, 255);
+}
+/*Bloque Article Rojo n°2*/
+.BAr2{
+    width: 18vh;
+    height: 18vh;
+}
+.barraBAr2{
+    width: 18vh;
+    height: 3vh;
+    background-color: rgb(228, 95, 95);
+}
+.DivBloqueBAr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 15vh;
+    background-color: rgb(253, 151, 151);
+}
+.BloqueBAr2{
+    width: 8.5vh;
+    height: 8.5vh;
+    background-color: rgb(228, 95, 95);
+}
+/*Bloque Articl Naranja n°2*/
+.BAn2{
+    width: 18vh;
+    height: 18vh;
+}
+.barraBAn2{
+    width: 18vh;
+    height: 3vh;
+    background-color: rgb(247, 170, 82);
+}
+.DivBloqueBAn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 15vh;
+    background-color: rgb(255, 185, 104);
+}
+.BloqueBAn2{
+    width: 8.5vh;
+    height: 8.5vh;
+    background-color: rgb(247, 170, 82);
 }
